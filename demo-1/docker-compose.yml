@@ -33,12 +33,3 @@ services:
       - ./agents/cartao_credito:/app
     ports:
       - "8082:8000"
-
-  bfa:
-    container_name: bfa
-    build:
-      context: ./bfa
-    volumes:
-      - ./bfa:/app
-    ports:
-      - "8083:8000"
