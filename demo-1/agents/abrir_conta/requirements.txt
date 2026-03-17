@@ -1,8 +1,0 @@
-a2a-sdk[http-server]
-httpx
-pydantic
-uvicorn
-langchain
-langchain_openai
-langchain-community
-python-dotenv
