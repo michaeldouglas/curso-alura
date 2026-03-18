@@ -42,3 +42,12 @@ services:
       - ./bfa:/app
     ports:
       - "8083:8000"
+
+  recursos:
+    container_name: recursos
+    build:
+      context: ./recursos
+    volumes:
+      - ./recursos:/app
+    ports:
+      - "8084:8000"
